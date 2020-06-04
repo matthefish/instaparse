@@ -1,5 +1,5 @@
 # InstaParse
-A module I made to aid in parsing instagram response data based off a username
+A module I made to aid in parsing instagram response data based off a username.
 
 ## Examples
 ### getprofile()
@@ -28,3 +28,7 @@ print(github.getpost(1))
 
 `{'type_of_post': 'GraphSidecar', 'post_content': 'https://instagram.fxds1-1.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/63430826_120138045872791_614866485576038131_n.jpg?_nc_ht=instagram.fxds1-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=1A3m1kwEcbMAX9qxWpp&oh=1e203772870254a43f48f74e4404edf2&oe=5F02ACFF', 'caption': "Show your Pride �🌈 \nTake a peek at the inspiration f
  this year's 2019 Pride gear. Get yours today by visiting the GitHub Shop. All proceeds go to charities supporting the LGBTQIA+ community", 'likes': 1330, 'comments': 71}`
+
+### Other methods
+- getresponse() --> returns response.status_code
+- loadprofile() --> used by other methodes to confirm that profile_json is not empty
