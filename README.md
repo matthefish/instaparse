@@ -21,7 +21,8 @@ getpost will return a dictionary with data pertaining to the post you choose. Ge
 import instaparse
 
 github = instaparse.insta('github')
-print(github.getpost(1))
+print(github.getpost(1)) #index has to be in range 0 - 6
+
 
 ```
 #### This would return:
