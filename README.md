@@ -31,4 +31,4 @@ print(github.getpost(1))
 
 ### Other methods
 - getresponse() --> returns response.status_code
-- loadprofile() --> used by other methodes to confirm that profile_json is not empty
+- loadprofile() --> used by other methods to confirm that profile_json is not empty
